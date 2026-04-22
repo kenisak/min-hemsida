@@ -3,15 +3,200 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Min webbsida</title>
+  <title>VärmeVäktarna | Biobränsle och värmelösningar</title>
+  <meta
+    name="description"
+    content="VärmeVäktarna hjälper kunder med värmelösningar inom pellets, flis och ved. Erfarenhet av installation, service och moderna biobränsleanläggningar."
+  >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hej ni är nu hos</h1>
-  <p>Kennet Isaksson.</p>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">VärmeVäktarna</div>
 
-  <button id="knapp">Klicka här</button>
-  <p id="meddelande"></p>
+      <button class="menu-toggle" id="menuToggle" aria-label="Öppna meny" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#start">Start</a>
+        <a href="#om-oss">Om oss</a>
+        <a href="#losningar">Lösningar</a>
+        <a href="#fordelar">Fördelar</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="start">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">Pellets • Flis • Ved</p>
+          <h1>Effektiv värme med moderna biobränslelösningar</h1>
+          <p class="lead">
+            VärmeVäktarna hjälper dig att hitta rätt lösning för fastighet, lantbruk
+            eller verksamhet. Fokus ligger på driftsäkerhet, ekonomi och teknik som fungerar i praktiken.
+          </p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#kontakt">Kontakta oss</a>
+            <a class="button button-secondary" href="#losningar">Se våra lösningar</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Praktisk erfarenhet</h2>
+          <p>
+            Vi arbetar med värmelösningar inom biobränsle och har erfarenhet av
+            installation, service och rådgivning kring moderna pannor och tillbehör.
+          </p>
+          <ul>
+            <li>Pelletsanläggningar</li>
+            <li>Flislösningar</li>
+            <li>Vedpannor</li>
+            <li>Service och support</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="om-oss">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Om oss</p>
+          <h2>Erfarenhet som bygger på verkliga anläggningar</h2>
+        </div>
+
+        <div class="two-column">
+          <div>
+            <p>
+              VärmeVäktarna arbetar med installation och service av biobränsleanläggningar.
+              Målet är att hjälpa kunder att hitta en lösning som passar deras behov,
+              deras fastighet och deras vardag.
+            </p>
+            <p>
+              Med praktisk erfarenhet från arbete med pellets, flis och ved kan vi bidra
+              både med teknisk förståelse och med ett verklighetsnära perspektiv på drift,
+              funktion och underhåll.
+            </p>
+          </div>
+
+          <div>
+            <p>
+              Vi har även erfarenhet av moderna system och produkter från bland annat KWB,
+              där automatisering, smart styrning och driftsäker teknik skapar bra förutsättningar
+              för en effektiv uppvärmning över tid.
+            </p>
+            <p>
+              Oavsett om det gäller villa, lantbruk eller större fastighet är ambitionen densamma:
+              att leverera en lösning som fungerar stabilt och känns rätt även på lång sikt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="losningar">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Våra lösningar</p>
+          <h2>Biobränsle anpassat efter behov</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Pellets</h3>
+            <p>
+              En smidig lösning för dig som vill ha hög komfort, automatiserad drift
+              och en enkel vardag med stabil värmeproduktion.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Flis</h3>
+            <p>
+              Passar större fastigheter, gårdar och verksamheter där låg bränslekostnad
+              och god ekonomi är viktiga delar av helheten.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Ved</h3>
+            <p>
+              Ett bra alternativ för dig som vill ha robust teknik och möjlighet att
+              använda ett bränsle som finns nära till hands.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fordelar">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Varför biobränsle</p>
+          <h2>Teknik som kombinerar ekonomi, hållbarhet och driftsäkerhet</h2>
+        </div>
+
+        <div class="benefits">
+          <div class="benefit-box">
+            <h3>Fördelar med moderna anläggningar</h3>
+            <ul>
+              <li>Automatisk och bekväm drift</li>
+              <li>God verkningsgrad</li>
+              <li>Långsiktig energiekonomi</li>
+              <li>Möjlighet att anpassa efter olika fastigheter</li>
+              <li>Stabil funktion med rätt dimensionering och inställningar</li>
+            </ul>
+          </div>
+
+          <div class="benefit-box">
+            <h3>Det vi uppskattar med modern teknik</h3>
+            <p>
+              Moderna biobränslepannor har smarta lösningar som förenklar vardagen och
+              minskar behovet av manuell hantering. Exempel på detta är automatiserade
+              funktioner, smart styrning och teknik som hjälper anläggningen att hålla
+              en jämn och stabil drift.
+            </p>
+            <p>
+              Det ger bättre komfort, färre avbrott och en lösning som fungerar bättre
+              över tid.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="kontakt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">Kontakt</p>
+          <h2>Vill du diskutera en värmelösning?</h2>
+        </div>
+
+        <div class="contact-box">
+          <p>
+            Hör gärna av dig om du vill veta mer om pellets, flis, ved eller moderna
+            biobränslelösningar för villa, lantbruk eller fastighet.
+          </p>
+
+          <div class="contact-details">
+            <p><strong>Kennet Isaksson</strong></p>
+            <p>VärmeVäktarna AB</p>
+            <p>Telefon: <a href="tel:+46702134173">070-213 41 73</a></p>
+            <p>E-post: <a href="mailto:info@varmevaktarna.se">info@varmevaktarna.se</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 VärmeVäktarna AB | Biobränsle och värmelösningar</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
